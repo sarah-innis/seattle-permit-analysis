@@ -89,7 +89,7 @@ Field names follow the structure:
 FYYYY_<CODE>
 ```
 
-Where **YYYY** is the census year (2000, 2010, 2020) and **CODE** is a shared variable identifier.
+Where **YYYY** is the census year (2000, 2010, 2020) and **CODE** is a shared variable identifier. Variable identifiers are described below.
 
 ---
 
@@ -99,26 +99,26 @@ Each PL variable appears in the years listed below.
 
 | Variable | Description                    | Years Available  |
 | -------- | ------------------------------ | ---------------- |
-| **PL_d** | Population & land category “d” | 2000, 2010, 2020 |
-| **PL_1** | PL category 1                  | 2000, 2010, 2020 |
-| **PL_2** | PL category 2                  | 2000, 2010, 2020 |
-| **PL_3** | PL category 3                  | 2000, 2010, 2020 |
-| **PL_4** | PL category 4                  | 2000, 2010, 2020 |
-| **PL_5** | PL category 5                  | 2000             |
-| **PL_6** | PL category 6                  | 2000             |
-| **PL_7** | PL category 7                  | 2000             |
-| **PL_8** | PL category 8                  | 2000             |
-| **PL_9** | PL category 9                  | 2000             |
+| **PL_d** | Total Population    | 2000, 2010, 2020 |
+| **PL_1** | One Race               | 2000, 2010, 2020 |
+| **PL_2** | White Alone               | 2000, 2010, 2020 |
+| **PL_3** | Black or African American Alone| 2000, 2010, 2020 |
+| **PL_4** | American Indian and Alaska Native Alone | 2000, 2010, 2020 |
+| **PL_5** | Asian Alone          | 2000             |
+| **PL_6** | Native Hawaiian and Other Pacific Islander Alone                  | 2000             |
+| **PL_7** | Some Other Race Alone              | 2000             |
+| **PL_8** | Two or More Races                  | 2000             |
+| **PL_9** | Hispanic or Latino                  | 2000             |
 | **PL_T** | PL total                       | 2000             |
-| **PL_P** | PL population                  | 2000             |
-| **PL_W** | PL W category                  | 2000             |
-| **PL_B** | PL B category                  | 2000             |
-| **PL_A** | PL A category                  | 2000             |
-| **PL_O** | PL O category                  | 2000             |
-| **PL_H** | PL H category                  | 2000             |
-| **PL_N** | PL N category                  | 2000             |
-| **PL_M** | PL M category                  | 2000             |
-| **PL_U** | PL U category                  | 2000             |
+| **PL_P** | One Race                  | 2000             |
+| **PL_W** | White Alone                  | 2000             |
+| **PL_B** | Black or African American Alone                  | 2000             |
+| **PL_A** | American Indian and Alaska Native Alone                 | 2000             |
+| **PL_O** | Asian Alone                  | 2000             |
+| **PL_H** | Native Hawaiian and Other Pacific Islander Alone                  | 2000             |
+| **PL_N** | Some Other Race Alone                  | 2000             |
+| **PL_M** | Two or More Races                 | 2000             |
+| **PL_U** | Hispanic or Latino                  | 2000             |
 
 ---
 
@@ -128,28 +128,88 @@ Each PL variable appears in the years listed below.
 
 | Variable | Description           | Years Available  |
 | -------- | --------------------- | ---------------- |
-| **P_10** | Population measure 10 | 2000, 2010, 2020 |
-| **P_11** | Population measure 11 | 2000, 2010, 2020 |
-| **P_12** | Population measure 12 | 2000, 2010, 2020 |
-| **P_13** | Population measure 13 | 2000, 2010, 2020 |
-| **P_14** | Population measure 14 | 2000, 2010, 2020 |
-| **P_15** | Population measure 15 | 2000, 2010, 2020 |
-| **P_16** | Population measure 16 | 2000, 2010, 2020 |
+| **P_10** | Not Hispanic or Latino | 2000, 2010, 2020 |
+| **P_11** | White Not Hispanic or Latino | 2000, 2010, 2020 |
+| **P_12** | Black or African American Not Hispanic or Latino | 2000, 2010, 2020 |
+| **P_13** | American Indian and Alaska Native Not Hispanic or Latino | 2000, 2010, 2020 |
+| **P_14** | Asian Not Hispanic or Latino | 2000, 2010, 2020 |
+| **P_15** | Native Hawaiian and other Pacific Islander Not Hispanic or Latino | 2000, 2010, 2020 |
+| **P_16** | Some other Race Not Hispanic or Latino | 2000, 2010, 2020 |
 
 ##### **Variables available for 2010 and 2020 only**
 
 | Variable | Description           | Years Available |
 | -------- | --------------------- | --------------- |
-| **P_17** | Population measure 17 | 2010, 2020      |
-| **P_18** | Population measure 18 | 2010, 2020      |
-| **P_19** | Population measure 19 | 2010, 2020      |
-| **P_20** | Population measure 20 | 2010, 2020      |
-| **P_21** | Population measure 21 | 2010, 2020      |
-| **P_22** | Population measure 22 | 2010, 2020      |
-| **P_23** | Population measure 23 | 2010, 2020      |
-| **P_24** | Population measure 24 | 2010, 2020      |
-| **P_25** | Population measure 25 | 2010, 2020      |
-| **P_26** | Population measure 26 | 2010, 2020      |
+| **P_17** | Two or More Races not Hispanic or Latino | 2010, 2020      |
+| **P_18** | Persons of Color | 2010, 2020      |
+| **P_19** | 18 years and over | 2010, 2020      |
+| **P_20** | under 18 years | 2010, 2020      |
+| **P_21** | Persons of color under 18 years | 2010, 2020      |
+| **P_22** | Housing units | 2010, 2020      |
+| **P_23** | Housing units occupied | 2010, 2020      |
+| **P_24** | Housing units vacant | 2010, 2020      |
+| **P_25** | Group Quarters Institutional Population | 2010, 2020      |
+| **P_26** | Group Quarters Non-Institutional Population | 2010, 2020      |
+
+---
+
+### **Population & Land (PL) Aggregations**
+
+Each PL variable appears in the years listed below.
+
+| Variable | Description                                      | Years Available  |
+| -------- | ------------------------------------------------ | ---------------- |
+| **PL_d** | Total Population                                 | 2000, 2010, 2020 |
+| **PL_1** | One Race                                         | 2000, 2010, 2020 |
+| **PL_2** | White Alone                                      | 2000, 2010, 2020 |
+| **PL_3** | Black or African American Alone                  | 2000, 2010, 2020 |
+| **PL_4** | American Indian and Alaska Native Alone          | 2000, 2010, 2020 |
+| **PL_5** | Asian Alone                                      | 2000             |
+| **PL_6** | Native Hawaiian and Other Pacific Islander Alone | 2000             |
+| **PL_7** | Some Other Race Alone                            | 2000             |
+| **PL_8** | Two or More Races                                | 2000             |
+| **PL_9** | Hispanic or Latino                               | 2000             |
+| **PL_T** | PL total                                         | 2000             |
+| **PL_P** | One Race                                         | 2000             |
+| **PL_W** | White Alone                                      | 2000             |
+| **PL_B** | Black or African American Alone                  | 2000             |
+| **PL_A** | American Indian and Alaska Native Alone          | 2000             |
+| **PL_O** | Asian Alone                                      | 2000             |
+| **PL_H** | Native Hawaiian and Other Pacific Islander Alone | 2000             |
+| **PL_N** | Some Other Race Alone                            | 2000             |
+| **PL_M** | Two or More Races                                | 2000             |
+| **PL_U** | Hispanic or Latino                               | 2000             |
+
+---
+
+### **Population (P) Variables**
+
+#### **Variables available across all years (2000, 2010, 2020)**
+
+| Variable | Description                                                       | Years Available  |
+| -------- | ----------------------------------------------------------------- | ---------------- |
+| **P_10** | Not Hispanic or Latino                                            | 2000, 2010, 2020 |
+| **P_11** | White Not Hispanic or Latino                                      | 2000, 2010, 2020 |
+| **P_12** | Black or African American Not Hispanic or Latino                  | 2000, 2010, 2020 |
+| **P_13** | American Indian and Alaska Native Not Hispanic or Latino          | 2000, 2010, 2020 |
+| **P_14** | Asian Not Hispanic or Latino                                      | 2000, 2010, 2020 |
+| **P_15** | Native Hawaiian and Other Pacific Islander Not Hispanic or Latino | 2000, 2010, 2020 |
+| **P_16** | Some Other Race Not Hispanic or Latino                            | 2000, 2010, 2020 |
+
+#### **Variables available for 2010 and 2020 only**
+
+| Variable | Description                                 | Years Available |
+| -------- | ------------------------------------------- | --------------- |
+| **P_17** | Two or More Races Not Hispanic or Latino    | 2010, 2020      |
+| **P_18** | Persons of Color                            | 2010, 2020      |
+| **P_19** | 18 years and over                           | 2010, 2020      |
+| **P_20** | Under 18 years                              | 2010, 2020      |
+| **P_21** | Persons of color under 18 years             | 2010, 2020      |
+| **P_22** | Housing units                               | 2010, 2020      |
+| **P_23** | Housing units occupied                      | 2010, 2020      |
+| **P_24** | Housing units vacant                        | 2010, 2020      |
+| **P_25** | Group Quarters Institutional Population     | 2010, 2020      |
+| **P_26** | Group Quarters Non-Institutional Population | 2010, 2020      |
 
 ---
 
@@ -170,7 +230,6 @@ Each PL variable appears in the years listed below.
 
 **File:** `Pop_Interest_Per_Year.xlsx`
 **Source:** Board of Governors of the Federal Reserve System (US), Federal Funds Effective Rate [FEDFUNDS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/FEDFUNDS, November 19, 2025.
-**URL:** [https://fred.stlouisfed.org/series/FEDFUNDS](https://fred.stlouisfed.org/series/FEDFUNDS)
 
 ### **Fields**
 
