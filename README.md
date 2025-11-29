@@ -80,7 +80,7 @@ All datasets are from federal sources or the Seattle Open Data Portal and are Pu
 
 ---
 
-# **Census & Redistricting Fields**
+### **Census & Redistricting Fields**
 
 These fields encode census population and land data for 2000, 2010, and 2020.
 Field names follow the structure:
@@ -93,7 +93,7 @@ Where **YYYY** is the census year (2000, 2010, 2020) and **CODE** is a shared va
 
 ---
 
-## **Population & Land (PL) Aggregations**
+#### **Population & Land (PL) Aggregations**
 
 Each PL variable appears in the years listed below.
 
@@ -122,9 +122,9 @@ Each PL variable appears in the years listed below.
 
 ---
 
-## **Population (P) Variables**
+#### **Population (P) Variables**
 
-### **Variables available across all years (2000, 2010, 2020)**
+##### **Variables available across all years (2000, 2010, 2020)**
 
 | Variable | Description           | Years Available  |
 | -------- | --------------------- | ---------------- |
@@ -136,7 +136,7 @@ Each PL variable appears in the years listed below.
 | **P_15** | Population measure 15 | 2000, 2010, 2020 |
 | **P_16** | Population measure 16 | 2000, 2010, 2020 |
 
-### **Variables available for 2010 and 2020 only**
+##### **Variables available for 2010 and 2020 only**
 
 | Variable | Description           | Years Available |
 | -------- | --------------------- | --------------- |
@@ -157,6 +157,7 @@ Each PL variable appears in the years listed below.
 
 **File:** `Pop_Interest_Per_Year.xlsx`
 **Source:** City of Seattle Office of Economic & Revenue Forecasts
+**URL:** [https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.seattle.gov%2Fdocuments%2FDepartments%2FOERF%2FForecasts%2F2025%2FOERF_EcoForecast_KS_2025Q4_202510%25202025-10-11.xlsx&wdOrigin=BROWSELINK](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.seattle.gov%2Fdocuments%2FDepartments%2FOERF%2FForecasts%2F2025%2FOERF_EcoForecast_KS_2025Q4_202510%25202025-10-11.xlsx&wdOrigin=BROWSELINK)
 
 ### **Fields**
 
@@ -169,6 +170,7 @@ Each PL variable appears in the years listed below.
 
 **File:** `Pop_Interest_Per_Year.xlsx`
 **Source:** Board of Governors of the Federal Reserve System (US), Federal Funds Effective Rate [FEDFUNDS], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/FEDFUNDS, November 19, 2025.
+**URL:** [https://fred.stlouisfed.org/series/FEDFUNDS](https://fred.stlouisfed.org/series/FEDFUNDS)
 
 ### **Fields**
 
