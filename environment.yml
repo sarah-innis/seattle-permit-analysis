@@ -8,3 +8,5 @@ dependencies:
   - ipykernel
   - geopandas
   - contextily
+  - seaborn
+  - statsmodels
