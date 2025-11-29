@@ -1,10 +1,10 @@
 name: permits
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - python=3.12
+  - python=3.11
   - pandas
   - ipykernel
   - geopandas
   - contextily
-prefix: C:\Users\sarah\anaconda3\envs\permits

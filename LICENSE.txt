@@ -1,4 +1,6 @@
-Data: Public Domain
+Data:
+The data is sourced from the City of Seattle or federal government. Data is Public Domain. See README for specific data types used.
+
 Code: 
 MIT License
 Copyright 2025 Sarah Innis
