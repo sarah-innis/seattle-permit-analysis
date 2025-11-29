@@ -1,10 +1,10 @@
-# **Analyzing New Residential Construction in the City of Seattle**
+# **Analyzing New Residential Multifamily Construction in the City of Seattle**
 
-This project explores new residential construction in the City of Seattle to answer:
+This project explores new residential multfamily construction in the City of Seattle to answer:
 
-* How is the housing supply changing within Seattle?
-* Where is new housing being added?
-* Are Seattle City Council Districts impacted differently by housing additions?
+* How is the multifamily housing supply changing within Seattle?
+* Where is new multifamily housing being added?
+* Are Seattle City Council Districts impacted differently by multifamily housing additions?
 * As the population grows, how do we expect the number of large multifamily buildings per resident to change?
 
 The goal is to understand how Seattle’s Council Districts are experiencing densification and whether multifamily housing availability per resident is declining—informing key action areas in the Seattle housing crisis.
@@ -92,67 +92,6 @@ FYYYY_<CODE>
 Where **YYYY** is the census year (2000, 2010, 2020) and **CODE** is a shared variable identifier. Variable identifiers are described below.
 
 ---
-
-#### **Population & Land (PL) Aggregations**
-
-Each PL variable appears in the years listed below.
-
-| Variable | Description                    | Years Available  |
-| -------- | ------------------------------ | ---------------- |
-| **PL_d** | Total Population    | 2000, 2010, 2020 |
-| **PL_1** | One Race               | 2000, 2010, 2020 |
-| **PL_2** | White Alone               | 2000, 2010, 2020 |
-| **PL_3** | Black or African American Alone| 2000, 2010, 2020 |
-| **PL_4** | American Indian and Alaska Native Alone | 2000, 2010, 2020 |
-| **PL_5** | Asian Alone          | 2000             |
-| **PL_6** | Native Hawaiian and Other Pacific Islander Alone                  | 2000             |
-| **PL_7** | Some Other Race Alone              | 2000             |
-| **PL_8** | Two or More Races                  | 2000             |
-| **PL_9** | Hispanic or Latino                  | 2000             |
-| **PL_T** | PL total                       | 2000             |
-| **PL_P** | One Race                  | 2000             |
-| **PL_W** | White Alone                  | 2000             |
-| **PL_B** | Black or African American Alone                  | 2000             |
-| **PL_A** | American Indian and Alaska Native Alone                 | 2000             |
-| **PL_O** | Asian Alone                  | 2000             |
-| **PL_H** | Native Hawaiian and Other Pacific Islander Alone                  | 2000             |
-| **PL_N** | Some Other Race Alone                  | 2000             |
-| **PL_M** | Two or More Races                 | 2000             |
-| **PL_U** | Hispanic or Latino                  | 2000             |
-
----
-
-#### **Population (P) Variables**
-
-##### **Variables available across all years (2000, 2010, 2020)**
-
-| Variable | Description           | Years Available  |
-| -------- | --------------------- | ---------------- |
-| **P_10** | Not Hispanic or Latino | 2000, 2010, 2020 |
-| **P_11** | White Not Hispanic or Latino | 2000, 2010, 2020 |
-| **P_12** | Black or African American Not Hispanic or Latino | 2000, 2010, 2020 |
-| **P_13** | American Indian and Alaska Native Not Hispanic or Latino | 2000, 2010, 2020 |
-| **P_14** | Asian Not Hispanic or Latino | 2000, 2010, 2020 |
-| **P_15** | Native Hawaiian and other Pacific Islander Not Hispanic or Latino | 2000, 2010, 2020 |
-| **P_16** | Some other Race Not Hispanic or Latino | 2000, 2010, 2020 |
-
-##### **Variables available for 2010 and 2020 only**
-
-| Variable | Description           | Years Available |
-| -------- | --------------------- | --------------- |
-| **P_17** | Two or More Races not Hispanic or Latino | 2010, 2020      |
-| **P_18** | Persons of Color | 2010, 2020      |
-| **P_19** | 18 years and over | 2010, 2020      |
-| **P_20** | under 18 years | 2010, 2020      |
-| **P_21** | Persons of color under 18 years | 2010, 2020      |
-| **P_22** | Housing units | 2010, 2020      |
-| **P_23** | Housing units occupied | 2010, 2020      |
-| **P_24** | Housing units vacant | 2010, 2020      |
-| **P_25** | Group Quarters Institutional Population | 2010, 2020      |
-| **P_26** | Group Quarters Non-Institutional Population | 2010, 2020      |
-
----
-
 ### **Population & Land (PL) Aggregations**
 
 Each PL variable appears in the years listed below.
