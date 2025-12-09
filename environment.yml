@@ -10,3 +10,5 @@ dependencies:
   - contextily
   - seaborn
   - statsmodels
+  - openpyxl
+  - pmdarima

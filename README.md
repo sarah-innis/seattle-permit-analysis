@@ -3,7 +3,7 @@
 This project explores new residential multfamily construction in the City of Seattle to answer:
 
 * How is the multifamily housing supply changing within Seattle?
-* Where is new multifamily housing being added?
+* Where are new multifamily housing being added?
 * Are Seattle City Council Districts impacted differently by multifamily housing additions?
 * As the population grows, how do we expect the number of large multifamily buildings per resident to change?
 
