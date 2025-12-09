@@ -1,13 +1,29 @@
 # **Analyzing New Residential Multifamily Construction in the City of Seattle**
 
-This project explores new residential multfamily construction in the City of Seattle to answer:
+This project explores new residential multfamily construction in the City of Seattle. The goal of this project is to understand how Seattle’s Council Districts are experiencing densification and whether multifamily housing availability per resident is declining—informing key action areas in the Seattle housing crisis.
 
-* How is the multifamily housing supply changing within Seattle?
-* Where are new multifamily housing being added?
-* Are Seattle City Council Districts impacted differently by multifamily housing additions?
-* As the population grows, how do we expect the number of large multifamily buildings per resident to change?
+The project examined these research questions and came up with the following findings:
+- **1. How is the multifamily housing supply changing within Seattle?**  
+  **Findings:**  
+  - Time series visualizations of permit applications and completions show a decline in permit applications since 2020.  
+  - Much of this decline is driven by fewer applications for smaller multifamily buildings (six units or fewer), which make up most multifamily permits.  
+  - Permit completions grew rapidly between 2013 and 2015, followed by slower but continued growth in subsequent years.
 
-The goal is to understand how Seattle’s Council Districts are experiencing densification and whether multifamily housing availability per resident is declining—informing key action areas in the Seattle housing crisis.
+- **2. Where is new multifamily housing being added?**  
+  **Findings:**  
+  - The largest number of new housing units are being added in Council Districts **2, 3, and 7**.
+
+- **3. Are Seattle City Council Districts impacted differently by multifamily housing additions?**  
+  **Findings:**  
+  - Districts **2, 3, and 7** also experience the highest number of new units **per person**.  
+  - Differences across districts are relatively modest, with approximately **80 units per 1,000 residents** separating them.
+
+- **4. As the population grows, how do we expect the number of large multifamily buildings per resident to change?**  
+  **Findings:**  
+  - This question focuses on large multifamily buildings (more than 33 units), due to differing trends in permit activity across building sizes.  
+  - A SARIMAX model was developed to forecast annual completions of these large buildings.  
+  - The number of buildings completed per year was normalized by year-over-year population change (in thousands).  
+  - Forecasts indicate that the **ratio of large buildings to population change is expected to roughly double** over the next five years.
 
 ---
 
